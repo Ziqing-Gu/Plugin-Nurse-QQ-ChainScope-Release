@@ -134,7 +134,21 @@ QQ ChainScope is proprietary Qing Audio software and is not open source. Public 
 请通过本仓库的 [Issues](https://github.com/Ziqing-Gu/Plugin-Nurse-QQ-ChainScope-Release/issues) 提交可复现的问题，并附上操作系统、DAW、插件格式、架构和复现步骤。  
 Please use this repository's [Issues](https://github.com/Ziqing-Gu/Plugin-Nurse-QQ-ChainScope-Release/issues) for reproducible reports, including your OS, DAW, plug-in format, architecture, and reproduction steps.
 
-## 截图 / Screenshots
+## 插件截图 / Screenshots
 
-中英文用户手册包含带标注的界面截图；后续可在本节增加独立产品图。  
-The Chinese and English user manuals include annotated interface screenshots; standalone product images may be added here later.
+### QQ ChainScope B Return
+
+处理链前后测量、Spectrum、Waveform / WaveScope、Dry/Wet、PHASE 和监听控制。  
+Before/after measurement, Spectrum, Waveform / WaveScope, Dry/Wet, PHASE, and monitoring controls.
+
+![QQ ChainScope B Return](https://github.com/Ziqing-Gu/Plugin-Nurse-QQ-ChainScope-Release/releases/download/v1.2.14/QQ-ChainScope-B-Return-v1.2.14.png)
+
+### QQ ChainScope C Mixboard
+
+从同一 Original 横向比较最多四个 Return 处理结果，并查看多曲线 Spectrum 与 WaveScope。  
+Compare up to four Return results from the same Original, with multi-curve Spectrum and WaveScope views.
+
+![QQ ChainScope C Mixboard](https://github.com/Ziqing-Gu/Plugin-Nurse-QQ-ChainScope-Release/releases/download/v1.2.14/QQ-ChainScope-C-Mixboard-v1.2.14.png)
+
+中英文用户手册还包含更多带标注的界面截图。  
+The Chinese and English user manuals include additional annotated interface screenshots.
