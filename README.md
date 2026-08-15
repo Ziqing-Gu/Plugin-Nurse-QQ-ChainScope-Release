@@ -43,7 +43,7 @@ QQ ChainScope is a practical DAW toolset for checking, matching, calibrating, do
 - macOS Intel VST3 package
 - macOS Universal 2 AU package
 - Bilingual installation guides
-- Supplied Chinese and English user manuals labeled v1.2.14
+- Supplied Chinese and English user manuals labeled v1.2.15
 ## 三个组件，一套工作流 / Three Components, One Workflow
 
 | 组件 / Component | 用途 / Purpose |
@@ -104,8 +104,8 @@ The v1.2.15 Release provides these separate downloads:
 - **QQ-ChainScope-1.2.15-macOS-Universal-2-AU.zip**
 - **QQ-ChainScope-1.2.15-Installation-Guide-Chinese.txt**
 - **QQ-ChainScope-1.2.15-Installation-Guide-English.txt**
-- **QQ-ChainScope-User-Manual-Chinese-v1.2.14.pdf**
-- **QQ-ChainScope-User-Manual-English-v1.2.14.pdf**
+- **QQ-ChainScope-User-Manual-Chinese-v1.2.15.pdf**
+- **QQ-ChainScope-User-Manual-English-v1.2.15.pdf**
 
 
 ## 安装 / Install
@@ -150,9 +150,9 @@ For complete steps, read the Chinese or English installation guide included in t
 
 ## 使用手册 / User Manuals
 
-v1.2.15 Release 提供 28 页中文用户手册和 28 页英文用户手册（用户手册文件版本仍标为 v1.2.14），涵盖快速开始、单 Return / Multi Return、FINAL 规则、Mixboard、测量、PHASE、Latency Rescue、Spectrum、Waveform / WaveScope、Chain Note、FULL / ECO、故障排查和快捷操作。
+v1.2.15 Release 提供 28 页中文用户手册和 28 页英文用户手册（用户手册文件版本为 v1.2.15），涵盖快速开始、单 Return / Multi Return、FINAL 规则、Mixboard、测量、PHASE、Latency Rescue、Spectrum、Waveform / WaveScope、Chain Note、FULL / ECO、故障排查和快捷操作。
 
-The v1.2.15 Release provides the supplied 28-page Chinese and English manuals (the manual files remain labeled v1.2.14) covering quick start, Single Return / Multi Return, FINAL rules, Mixboard, measurement, PHASE, Latency Rescue, Spectrum, Waveform / WaveScope, Chain Note, FULL / ECO, troubleshooting, and shortcuts.
+The v1.2.15 Release provides the supplied 28-page Chinese and English manuals (the manual files are labeled v1.2.15) covering quick start, Single Return / Multi Return, FINAL rules, Mixboard, measurement, PHASE, Latency Rescue, Spectrum, Waveform / WaveScope, Chain Note, FULL / ECO, troubleshooting, and shortcuts.
 
 ## 许可与使用 / License & Usage
 
