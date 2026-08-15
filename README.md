@@ -11,12 +11,39 @@ QQ ChainScope is a practical DAW toolset for checking, matching, calibrating, do
 
 ## 最新版本 / Latest Release
 
-**QQ ChainScope 1.2.14** 是当前最新、最稳定版本。  
-**QQ ChainScope 1.2.14** is the current latest and most stable release.
+**QQ ChainScope 1.2.15** 是当前最新、最稳定版本。  
+**QQ ChainScope 1.2.15** is the current latest and most stable release.
 
-- [下载 v1.2.14 / Download v1.2.14](https://github.com/Ziqing-Gu/Plugin-Nurse-QQ-ChainScope-Release/releases/tag/v1.2.14)
+- [下载 v1.2.15 / Download v1.2.15](https://github.com/Ziqing-Gu/Plugin-Nurse-QQ-ChainScope-Release/releases/tag/v1.2.15)
 - [全部版本 / All releases](https://github.com/Ziqing-Gu/Plugin-Nurse-QQ-ChainScope-Release/releases)
 
+
+## 1.2.15 更新内容 / What's New in 1.2.15
+
+### 中文
+
+- 修复 REAPER 停止播放后仍继续回调时，Return 与 Mixboard 的 Spectrum、Waveform/WaveScope 被静音回调冲掉的问题。
+- 停止播放后，Return 与 Mixboard 图表保持最后一帧，Spectrum 显示平滑/衰减也暂停。
+- Return 播放区间 RMS / Integrated LUFS 在停止后不再继续被停止时段稀释。
+- 已观察到有效 Transport 状态后，缺失 `PositionInfo` 按停止分析处理；静止重复时间线不会被误判为 seek。
+- 本次更新不改变声音路由、FINAL、PHASE、Latency Rescue、Dry/Wet、Bypass、Monitor 或 FULL/ECO 定义。
+
+### English
+
+- Fixed the REAPER stop-callback case where continued callbacks could overwrite Return and Mixboard Spectrum/Waveform/WaveScope data with stopped-time silence.
+- Return and Mixboard graphs now hold the last visible frame after transport Stop; Spectrum smoothing/decay is suspended too.
+- Return playback-pass RMS / Integrated LUFS no longer continues to dilute after Stop.
+- After valid transport state has been observed, missing `PositionInfo` is resolved as analysis Stop; frozen timeline callbacks are not mistaken for a seek.
+- Audio routing, FINAL, PHASE, Latency Rescue, Dry/Wet, Bypass, Monitor, and FULL/ECO definitions are unchanged.
+
+### 本次公开内容 / Public contents in this release
+
+- Windows x64 VST3 package
+- macOS Apple Silicon VST3 package
+- macOS Intel VST3 package
+- macOS Universal 2 AU package
+- Bilingual installation guides
+- Supplied Chinese and English user manuals labeled v1.2.14
 ## 三个组件，一套工作流 / Three Components, One Workflow
 
 | 组件 / Component | 用途 / Purpose |
@@ -68,15 +95,15 @@ A Send, B Return, and C Mixboard must remain on the same version and be updated 
 
 ## 下载 / Downloads
 
-v1.2.14 Release 提供以下独立下载：  
-The v1.2.14 Release provides these separate downloads:
+v1.2.15 Release 提供以下独立下载：  
+The v1.2.15 Release provides these separate downloads:
 
-- **QQ-ChainScope-1.2.14-Windows-x64-VST3.zip**
-- **QQ-ChainScope-1.2.14-macOS-Apple-Silicon-VST3.zip**
-- **QQ-ChainScope-1.2.14-macOS-Intel-VST3.zip**
-- **QQ-ChainScope-1.2.14-macOS-Universal-2-AU.zip**
+- **QQ-ChainScope-1.2.15-Windows-x64-VST3.zip**
+- **QQ-ChainScope-1.2.15-macOS-Apple-Silicon-VST3.zip**
+- **QQ-ChainScope-1.2.15-macOS-Intel-VST3.zip**
+- **QQ-ChainScope-1.2.15-macOS-Universal-2-AU.zip**
 - 中英文安装说明与 PDF 用户手册 / Chinese and English installation guides and PDF user manuals
-- **QQ-ChainScope-1.2.14-SHA256SUMS.txt**
+- ****
 
 ## 安装 / Install
 
@@ -120,9 +147,9 @@ For complete steps, read the Chinese or English installation guide included in t
 
 ## 使用手册 / User Manuals
 
-v1.2.14 Release 包含 28 页中文用户手册和 28 页英文用户手册，涵盖快速开始、单 Return / Multi Return、FINAL 规则、Mixboard、测量、PHASE、Latency Rescue、Spectrum、Waveform / WaveScope、Chain Note、FULL / ECO、故障排查和快捷操作。
+v1.2.15 Release 提供 28 页中文用户手册和 28 页英文用户手册（用户手册文件版本仍标为 v1.2.14），涵盖快速开始、单 Return / Multi Return、FINAL 规则、Mixboard、测量、PHASE、Latency Rescue、Spectrum、Waveform / WaveScope、Chain Note、FULL / ECO、故障排查和快捷操作。
 
-The v1.2.14 Release includes 28-page Chinese and English manuals covering quick start, Single Return / Multi Return, FINAL rules, Mixboard, measurement, PHASE, Latency Rescue, Spectrum, Waveform / WaveScope, Chain Note, FULL / ECO, troubleshooting, and shortcuts.
+The v1.2.15 Release provides the supplied 28-page Chinese and English manuals (the manual files remain labeled v1.2.14) covering quick start, Single Return / Multi Return, FINAL rules, Mixboard, measurement, PHASE, Latency Rescue, Spectrum, Waveform / WaveScope, Chain Note, FULL / ECO, troubleshooting, and shortcuts.
 
 ## 许可与使用 / License & Usage
 
