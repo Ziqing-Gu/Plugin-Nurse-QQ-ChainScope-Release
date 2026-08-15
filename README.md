@@ -102,8 +102,11 @@ The v1.2.15 Release provides these separate downloads:
 - **QQ-ChainScope-1.2.15-macOS-Apple-Silicon-VST3.zip**
 - **QQ-ChainScope-1.2.15-macOS-Intel-VST3.zip**
 - **QQ-ChainScope-1.2.15-macOS-Universal-2-AU.zip**
-- 中英文安装说明与 PDF 用户手册 / Chinese and English installation guides and PDF user manuals
-- ****
+- **QQ-ChainScope-1.2.15-Installation-Guide-Chinese.txt**
+- **QQ-ChainScope-1.2.15-Installation-Guide-English.txt**
+- **QQ-ChainScope-User-Manual-Chinese-v1.2.14.pdf**
+- **QQ-ChainScope-User-Manual-English-v1.2.14.pdf**
+
 
 ## 安装 / Install
 
