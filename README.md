@@ -11,14 +11,14 @@ QQ ChainScope is a practical DAW toolset for checking, matching, calibrating, do
 
 ## 最新版本 / Latest Release
 
-**QQ ChainScope 1.2.15** 是当前最新、最稳定版本。  
-**QQ ChainScope 1.2.15** is the current latest and most stable release.
+**QQ ChainScope 1.2.17** 是当前最新、最稳定版本。  
+**QQ ChainScope 1.2.17** is the current latest and most stable release.
 
-- [下载 v1.2.15 / Download v1.2.15](https://github.com/Ziqing-Gu/Plugin-Nurse-QQ-ChainScope-Release/releases/tag/v1.2.15)
+- [下载 v1.2.17 / Download v1.2.17](https://github.com/Ziqing-Gu/Plugin-Nurse-QQ-ChainScope-Release/releases/tag/v1.2.17)
 - [全部版本 / All releases](https://github.com/Ziqing-Gu/Plugin-Nurse-QQ-ChainScope-Release/releases)
 
 
-## 1.2.15 更新内容 / What's New in 1.2.15
+## 1.2.17 更新内容 / What's New in 1.2.17
 
 ### 中文
 
@@ -35,6 +35,7 @@ QQ ChainScope is a practical DAW toolset for checking, matching, calibrating, do
 - Return playback-pass RMS / Integrated LUFS no longer continues to dilute after Stop.
 - After valid transport state has been observed, missing `PositionInfo` is resolved as analysis Stop; frozen timeline callbacks are not mistaken for a seek.
 - Audio routing, FINAL, PHASE, Latency Rescue, Dry/Wet, Bypass, Monitor, and FULL/ECO definitions are unchanged.
+- The actual VST3 bundle names are now QQ A Send ChainScope.vst3, QQ B Return ChainScope.vst3, and QQ C Mixboard ChainScope.vst3. Remove the old names before installing the new ones.
 
 ### 本次公开内容 / Public contents in this release
 
@@ -43,7 +44,7 @@ QQ ChainScope is a practical DAW toolset for checking, matching, calibrating, do
 - macOS Intel VST3 package
 - macOS Universal 2 AU package
 - Bilingual installation guides
-- Supplied Chinese and English user manuals labeled v1.2.15
+- Supplied Chinese and English user manuals labeled v1.2.17
 ## 三个组件，一套工作流 / Three Components, One Workflow
 
 | 组件 / Component | 用途 / Purpose |
@@ -95,30 +96,47 @@ A Send, B Return, and C Mixboard must remain on the same version and be updated 
 
 ## 下载 / Downloads
 
-v1.2.15 Release 提供以下独立下载：  
-The v1.2.15 Release provides these separate downloads:
+v1.2.17 Release 提供以下独立下载：  
+The v1.2.17 Release provides these separate downloads:
 
-- **QQ-ChainScope-1.2.15-Windows-x64-VST3.zip**
-- **QQ-ChainScope-1.2.15-macOS-Apple-Silicon-VST3.zip**
-- **QQ-ChainScope-1.2.15-macOS-Intel-VST3.zip**
-- **QQ-ChainScope-1.2.15-macOS-Universal-2-AU.zip**
-- **QQ-ChainScope-1.2.15-Installation-Guide-Chinese.txt**
-- **QQ-ChainScope-1.2.15-Installation-Guide-English.txt**
-- **QQ-ChainScope-User-Manual-Chinese-v1.2.15.pdf**
-- **QQ-ChainScope-User-Manual-English-v1.2.15.pdf**
+- **QQ-ChainScope-1.2.17-Windows-x64-VST3.zip**
+- **QQ-ChainScope-1.2.17-macOS-Apple-Silicon-VST3.zip**
+- **QQ-ChainScope-1.2.17-macOS-Intel-VST3.zip**
+- **QQ-ChainScope-1.2.17-macOS-Universal-2-AU.zip**
+- **QQ-ChainScope-1.2.17-Installation-Guide-Chinese.txt**
+- **QQ-ChainScope-1.2.17-Installation-Guide-English.txt**
+- **QQ-ChainScope-User-Manual-Chinese-v1.2.17.pdf**
+- **QQ-ChainScope-User-Manual-English-v1.2.17.pdf**
+- **QQ-ChainScope-1.2.17-SHA256SUMS.txt**
 
 
 ## 安装 / Install
 
 ### Windows VST3
 
-完全退出 DAW，解压 Windows 包，并将三个 .vst3 文件夹复制到：
+完全退出 DAW。1.2.17 升级时，先从系统 VST3 目录删除以下旧文件：
+
+~~~text
+QQ ChainScope Send.vst3
+QQ ChainScope Return.vst3
+QQ ChainScope Mixboard.vst3
+~~~
+
+再解压 Windows 包，并将以下三个新版 bundle 复制到：
 
 ~~~text
 C:\Program Files\Common Files\VST3
 ~~~
 
-Quit the DAW, extract the Windows package, and copy all three .vst3 folders to the path above. Replace all three older plug-ins together, then rescan VST3 plug-ins.
+~~~text
+QQ A Send ChainScope.vst3
+QQ B Return ChainScope.vst3
+QQ C Mixboard ChainScope.vst3
+~~~
+
+Quit the DAW completely. For a 1.2.17 upgrade, delete the three old bundle names
+listed above first, then copy the three new bundles to the system VST3 folder.
+Reopen the DAW and rescan VST3 plug-ins. Do not keep old and new names together.
 
 ### macOS VST3
 
@@ -150,9 +168,9 @@ For complete steps, read the Chinese or English installation guide included in t
 
 ## 使用手册 / User Manuals
 
-v1.2.15 Release 提供 28 页中文用户手册和 28 页英文用户手册（用户手册文件版本为 v1.2.15），涵盖快速开始、单 Return / Multi Return、FINAL 规则、Mixboard、测量、PHASE、Latency Rescue、Spectrum、Waveform / WaveScope、Chain Note、FULL / ECO、故障排查和快捷操作。
+v1.2.17 Release 提供随包发布的中文和英文用户手册（用户手册文件版本为 v1.2.17），涵盖快速开始、单 Return / Multi Return、FINAL 规则、Mixboard、测量、PHASE、Latency Rescue、Spectrum、Waveform / WaveScope、Chain Note、FULL / ECO、故障排查和快捷操作。
 
-The v1.2.15 Release provides the supplied 28-page Chinese and English manuals (the manual files are labeled v1.2.15) covering quick start, Single Return / Multi Return, FINAL rules, Mixboard, measurement, PHASE, Latency Rescue, Spectrum, Waveform / WaveScope, Chain Note, FULL / ECO, troubleshooting, and shortcuts.
+The v1.2.17 Release provides the supplied 28-page Chinese and English manuals (the manual files are labeled v1.2.17) covering quick start, Single Return / Multi Return, FINAL rules, Mixboard, measurement, PHASE, Latency Rescue, Spectrum, Waveform / WaveScope, Chain Note, FULL / ECO, troubleshooting, and shortcuts.
 
 ## 许可与使用 / License & Usage
 
